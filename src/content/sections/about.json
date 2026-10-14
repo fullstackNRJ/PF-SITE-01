@@ -1,0 +1,30 @@
+{
+  "kind": "profile",
+  "title": "About",
+  "summary": "Who I am and what I build.",
+  "nav": {
+    "label": "About",
+    "order": 0,
+    "position": { "x": 0, "y": 0 },
+    "shortcut": "1",
+    "entry": true
+  },
+  "layout": { "type": "list", "cardSize": "large" },
+  "items": [
+    {
+      "id": "neeraj",
+      "type": "profile",
+      "title": "Neeraj",
+      "summary": "I build AI products and developer experiences. Right now that means AEOFlow, and a Technical Lead role on an AI initiative for developer experience at P&G.",
+      "headline": "Product Engineer building AI products and developer experiences.",
+      "featured": true,
+      "skills": ["AI products", "Developer experience"],
+      "tags": ["profile"],
+      "links": [
+        { "label": "AEOFlow", "href": "https://tryaeoflow.com", "kind": "primary" },
+        { "label": "Medium", "href": "https://medium.com/@tt_nrj_1001", "kind": "social" },
+        { "label": "X", "href": "https://x.com/tt_nrj_1001", "kind": "social" }
+      ]
+    }
+  ]
+}

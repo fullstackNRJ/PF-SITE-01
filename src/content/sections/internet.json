@@ -1,0 +1,47 @@
+{
+  "kind": "index",
+  "title": "Internet",
+  "summary": "Where to find me online.",
+  "nav": {
+    "label": "Internet",
+    "order": 5,
+    "position": { "x": 1, "y": 1 },
+    "shortcut": "6"
+  },
+  "layout": { "type": "grid", "cardSize": "medium" },
+  "items": [
+    {
+      "id": "x",
+      "type": "link",
+      "title": "X",
+      "summary": "The short version.",
+      "href": "https://x.com/tt_nrj_1001",
+      "category": "social"
+    },
+    {
+      "id": "medium",
+      "type": "link",
+      "title": "Medium",
+      "summary": "The long version.",
+      "href": "https://medium.com/@tt_nrj_1001",
+      "category": "blog"
+    },
+    {
+      "id": "discord",
+      "type": "link",
+      "title": "Discord",
+      "summary": "Say hi — send a friend request to the handle.",
+      "domain": "@tt_nrj_1001",
+      "category": "community"
+    },
+    {
+      "id": "aeoflow",
+      "type": "link",
+      "title": "AEOFlow",
+      "summary": "The current product.",
+      "href": "https://tryaeoflow.com",
+      "category": "product",
+      "featured": true
+    }
+  ]
+}

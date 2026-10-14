@@ -1,0 +1,18 @@
+---
+import AppShell from '@/components/shell/AppShell';
+import Layout from '@/layouts/Layout.astro';
+import { getContentSnapshot } from '@/lib/content';
+
+// Content is loaded and validated on the server, then handed to the React
+// island as one plain, serializable snapshot. The island never talks to
+// Astro's content layer directly — it reads the snapshot through `useContent`.
+const snapshot = await getContentSnapshot();
+---
+
+<Layout
+  title={snapshot.site.title}
+  description={snapshot.site.description}
+  lang={snapshot.site.locale}
+>
+  <AppShell snapshot={snapshot} client:load />
+</Layout>

@@ -1,0 +1,24 @@
+{
+  "kind": "collection",
+  "title": "Writing",
+  "summary": "Notes from building, published on Medium.",
+  "nav": {
+    "label": "Writing",
+    "order": 3,
+    "position": { "x": 0, "y": 1 },
+    "shortcut": "4"
+  },
+  "layout": { "type": "editorial" },
+  "items": [
+    {
+      "id": "medium",
+      "type": "link",
+      "title": "Medium",
+      "summary": "Where the longer write-ups live.",
+      "href": "https://medium.com/@tt_nrj_1001",
+      "category": "blog",
+      "featured": true,
+      "tags": ["writing"]
+    }
+  ]
+}

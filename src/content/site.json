@@ -1,0 +1,23 @@
+{
+  "title": "Neeraj — Product Engineer",
+  "tagline": "Product Engineer",
+  "description": "Neeraj is a Product Engineer building AI products and developer experiences.",
+  "locale": "en",
+  "keywords": [
+    "Neeraj",
+    "portfolio",
+    "product engineer",
+    "AI products",
+    "developer experience",
+    "AEOFlow"
+  ],
+  "entrySection": "about",
+  "author": {
+    "name": "Neeraj",
+    "headline": "Product Engineer building AI products and developer experiences."
+  },
+  "social": [
+    { "label": "X", "href": "https://x.com/tt_nrj_1001", "kind": "social" },
+    { "label": "Medium", "href": "https://medium.com/@tt_nrj_1001", "kind": "social" }
+  ]
+}

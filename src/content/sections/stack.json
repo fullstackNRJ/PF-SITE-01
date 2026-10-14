@@ -1,0 +1,86 @@
+{
+  "kind": "index",
+  "title": "Stack",
+  "summary": "What I reach for when building.",
+  "nav": {
+    "label": "Stack",
+    "order": 4,
+    "position": { "x": 2, "y": 1 },
+    "shortcut": "5"
+  },
+  "layout": { "type": "grid", "cardSize": "small" },
+  "items": [
+    {
+      "id": "python",
+      "type": "stack",
+      "title": "Python",
+      "summary": "The language behind the AI side of things.",
+      "name": "Python",
+      "category": "language"
+    },
+    {
+      "id": "fastapi",
+      "type": "stack",
+      "title": "FastAPI",
+      "summary": "Python APIs with typed requests and responses.",
+      "name": "FastAPI",
+      "category": "framework"
+    },
+    {
+      "id": "pydantic",
+      "type": "stack",
+      "title": "Pydantic",
+      "summary": "Typed data models and validation in Python.",
+      "name": "Pydantic",
+      "category": "tooling"
+    },
+    {
+      "id": "langgraph",
+      "type": "stack",
+      "title": "LangGraph",
+      "summary": "LLM workflows and agents as graphs.",
+      "name": "LangGraph",
+      "category": "framework"
+    },
+    {
+      "id": "llm-evaluation",
+      "type": "stack",
+      "title": "LLM evaluation",
+      "summary": "Checking that model output is actually good.",
+      "name": "LLM evaluation",
+      "category": "practice"
+    },
+    {
+      "id": "llm-observability",
+      "type": "stack",
+      "title": "LLM observability",
+      "summary": "Seeing what the model did, and why.",
+      "name": "LLM observability",
+      "category": "practice"
+    },
+    {
+      "id": "nextjs",
+      "type": "stack",
+      "title": "Next.js",
+      "summary": "React framework for product front ends.",
+      "name": "Next.js",
+      "category": "framework"
+    },
+    {
+      "id": "payload",
+      "type": "stack",
+      "title": "Payload CMS",
+      "summary": "Headless CMS that lives alongside Next.js.",
+      "name": "Payload CMS",
+      "category": "framework"
+    },
+    {
+      "id": "azure",
+      "type": "stack",
+      "title": "Azure",
+      "summary": "Cloud platform.",
+      "name": "Azure",
+      "category": "platform"
+    }
+  ]
+}

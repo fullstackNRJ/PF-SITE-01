@@ -1,0 +1,15 @@
+{
+  "kind": "collection",
+  "title": "Products",
+  "summary": "Things I am building under my own name.",
+  "nav": {
+    "label": "Products",
+    "order": 2,
+    "position": { "x": 2, "y": 0 },
+    "shortcut": "3"
+  },
+  "layout": { "type": "horizontal", "cardSize": "medium", "focusMode": "featured" },
+  "items": [
+    { "id": "aeoflow", "type": "project", "projectId": "aeoflow" }
+  ]
+}

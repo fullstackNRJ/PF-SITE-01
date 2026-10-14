@@ -1,0 +1,37 @@
+{
+  "name": "pf-site-01",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "check": "astro check",
+    "test": "node --test \"src/**/*.test.ts\"",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/markdown-satteri": "0.4.2",
+    "@astrojs/react": "^7.0.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "astro": "^7.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "satteri": "0.10.5",
+    "tailwindcss": "^4.3.3"
+  },
+  "allowScripts": {
+    "esbuild": true
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.6.4",
+    "typescript": "^6.0.3"
+  }
+}

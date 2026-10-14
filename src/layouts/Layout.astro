@@ -1,0 +1,31 @@
+---
+// Latin, regular only (~21 KB): the serif is for headings, which never use other weights.
+import '@fontsource/instrument-serif/latin-400.css';
+import serifFont from '@fontsource/instrument-serif/files/instrument-serif-latin-400-normal.woff2?url';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: string;
+}
+
+const { title, description, lang } = Astro.props;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f0e0d" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preload" href={serifFont} as="font" type="font/woff2" crossorigin />
+    <title>{title}</title>
+  </head>
+  <body class="bg-ink font-sans text-fg antialiased">
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "kind": "collection",
+  "title": "Work",
+  "summary": "Where the day job happens.",
+  "nav": {
+    "label": "Work",
+    "order": 1,
+    "position": { "x": 1, "y": 0 },
+    "shortcut": "2"
+  },
+  "layout": { "type": "list" },
+  "items": [
+    { "id": "pg", "type": "experience", "experienceId": "pg" }
+  ]
+}
